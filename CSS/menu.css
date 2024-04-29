@@ -1,0 +1,105 @@
+@import url(../style.css);
+
+.logo img{
+    display: flex;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 60%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo a{
+    width: 100%;
+    position: absolute;
+    left: 120px;
+    margin-top: 11px;
+    text-decoration: none;
+    color: var(--textos--menu);
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+.section-left{
+    position: fixed;
+    padding: 15px;
+    min-height: 100vh;
+    width: 70px;
+    overflow: hidden;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    z-index: 2;
+}
+
+.section-left:hover{
+    width: 300px;
+    transition: 1s ease;
+    border-radius: 2px;
+}
+
+.section-left:not(:hover){
+    transition: 0.5s ease;
+}
+
+.move{
+    position: relative;
+    left: 7px;
+}
+
+.menu-selection{
+    position: relative;
+    display: flex;
+    margin: 65px 0;
+    align-items: center;
+    gap: 90px;
+    border: 1px solid rgba(255, 255 ,255, 0.3);
+    height: 30px;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer;
+    color: var(--textos--menu);
+    transition: 0.5s;
+}
+
+.menu-selection:hover{
+    transform: translateY(-3px);
+    text-shadow: 0 0 3px var(--blanco);
+    box-shadow: 0 0 3px var(--blanco);
+}
+
+
+.log-out{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 85px;
+    border: 1px solid rgba(255, 255 ,255, 0.3);
+    height: 30px;
+    border-radius: 8px;
+    padding: 10px;
+    top: 20px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.log-out h3{
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    left: 105px;
+}
+
+.log-out i{
+    color: #fff;
+}
+
+.log-out:hover{
+    transform: translateY(-3px);
+    text-shadow: 0 0 3px var(--blanco);
+    box-shadow: 0 0 3px var(--blanco);
+}

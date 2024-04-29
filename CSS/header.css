@@ -1,0 +1,59 @@
+@import url(../style.css);
+
+header{
+    width: 100%;
+}
+
+
+.search-section{
+    display: flex;
+    padding: 25px;
+    justify-content: center;
+}
+
+.search-section .bar{
+    height: 35px;
+    width: 800px;
+    border-radius: 8px;
+    outline: none;
+    border-color: #eee;
+    background-color: var(--search-color);
+    border-style: none;
+    color: var(--negro);
+    font-size: 15px;
+    padding: 10px 100px 10px 10px;
+}
+
+.search-section .bar::placeholder{
+    color: var(--negro);
+}
+
+.search-section .uno{
+    position: relative;
+    justify-content: center;
+    right: 120%;
+    top: 5px;
+    font-size: 25px;
+    color: var(--color--iconos--barra);
+    cursor: pointer;
+}
+
+.search-section .dos{
+    position: relative;
+    justify-content: center;
+    right: 110%;
+    top: 5px;
+    font-size: 25px;
+    color: var(--color--iconos--barra);
+    cursor: pointer;
+}
+
+.search-section .tres{
+    position: relative;
+    justify-content: center;
+    right: 105%;
+    top: 5px;
+    font-size: 25px;
+    color: var(--color--iconos--barra);
+    cursor: pointer;
+}

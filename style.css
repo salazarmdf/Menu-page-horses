@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+:root{
+    --txt--medium: rgba(255,255,255, 0.2);
+    --negro: rgba(0,0,0);
+    --blanco:#fff;
+    --color--iconos--barra: rgba(0, 0 ,0, 0.8);
+    --textos--menu: rgba(255, 255 ,255, 1);
+    --clippy: circle(0% at center);
+    --search--color: rgba(255, 255 ,255, 0.7);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: sans-serif 'popins';
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: url('Images/background/painting-mountain-lake-with-mountain-background.jpg') no-repeat;
+    background-size: cover;
+}
+
+
+
