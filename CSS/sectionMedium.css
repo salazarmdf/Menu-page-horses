@@ -17,7 +17,6 @@
     width: 100%;
     height: 180px;
     display: block;
-    margin: 0 auto;
     background-position: center;
     background-size: cover;
     background-image: url('/Images/Horses/horses-gallop-beach-sunset-ai-generated.jpg');
@@ -27,8 +26,8 @@
 .texts-option-user{
     display: flex;
     position: relative;
-    top: 45%;
-    right: 11%;
+    top: 48%;
+    right: 13%;
     background-color: var(--txt--medium);
     backdrop-filter: blur(15px);
     justify-content: space-between;
@@ -38,25 +37,22 @@
     border-radius: 8px;
 }
 
-.txt-user{
+.txt-user a{
     color: var(--negro);
     font-size: 1rem;
-    transition: 0.5s;
     letter-spacing: 0.5px;
-    cursor: context-menu;
+    transition: 0.5s;
+    text-decoration: none;
+    position: relative;
+    top: 3px;
+    left: 7px;
 }
 
-.txt-user:hover{
+.txt-user a:hover{
     text-shadow: 0 0 1px var(--negro);
     cursor: pointer;
 }
 
-
-.clip-path h4{
-    position: relative;
-    left: 5px;
-    top: 2px;
-}
 
 .clip-path::before{
     content: "";
@@ -76,15 +72,11 @@
 }
 
 .wrapper-horses{
-    display: flex;
-    flex-direction: column;
     position: relative;
     top: 65%;
     right: 20%;
     width: 140%;
 }
-
-
 
 .horses-images-content{
     background-color: var(--txt--medium);
@@ -98,9 +90,11 @@
     padding: 5px 25px;
 }
 
+.inputs-images{
+    opacity: 0;
+}
 
 .card-image{
-    background-color: blue;
     width: 90px;
     border-radius: 25px;
     cursor: pointer;
@@ -112,7 +106,7 @@
     transition: 0.5s ease;
 }
 
-.card-image h4{
+.card-image > h4{
     opacity: 0;
     transition: 0.5s;
     position: relative;
@@ -127,7 +121,6 @@
 .inputs-images:checked + .card-image{
     width: 340px;
 }
-
 
 .inputs-images:checked + .card-image h4{
 opacity: 1;

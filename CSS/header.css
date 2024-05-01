@@ -17,7 +17,7 @@ header{
     border-radius: 8px;
     outline: none;
     border-color: #eee;
-    background-color: var(--search-color);
+    background-color: var(--txt--medium);
     border-style: none;
     color: var(--negro);
     font-size: 15px;
